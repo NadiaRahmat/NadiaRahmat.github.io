@@ -17,13 +17,13 @@
                 <input type="password" name="loginPassword" id="password" required/>
                 <label for="loginPassword">Password</label>
             </div>
-            <input type="submit" value="Login" class="submit-btn" onclick="validate()"/>
+            <input type="submit" value="Login" class="submit-btn" onclick="auth()"/>
         </form>
         </div>
         <script>
-            function validate(){
-    var username = document.getElementById("username")value;
-    var password = document.getElementById("password")value;
+            function auth(){
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
     if(username=="Luke" && password=="1225"){
         window.location.assign("https://nadiarahmat.github.io/Luke/");
         alert("Hi my dearest Luke!");
