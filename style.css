@@ -25,10 +25,9 @@ body{
     align-items: center;
     font-family: 'Poppins', sans-serif;
 }
-h2{
-    
+h2{  
     position: relative;
-    font-size: 6vw;
+    font-size: 5vw;
     color: rgb(255, 255, 255);
     -webkit-text-stroke: 0.3vw #ffffff;
     text-transform: uppercase;
@@ -110,7 +109,7 @@ h2::before
     backface-visibility: hidden;
 }
 .inside h3{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     font-style: italic;
     font-family: 'Bodoni Moda', serif;
