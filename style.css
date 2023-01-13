@@ -103,7 +103,6 @@ h2::before
     box-shadow: 5px 5px 30px rgb(255, 255, 255);
     position: absolute;
     backface-visibility: hidden;
-    transform: rotateX(0deg);
 }
 .outside h1{
     font-size: 2rem;
@@ -117,7 +116,6 @@ h2::before
     box-shadow: 10px 10px 30px rgb(255, 255, 255);
     transform: rotateY(180deg);
     backface-visibility: hidden;
-    transform: rotateX(0deg);
 }
 .inside h3{
     font-size: 1rem;
