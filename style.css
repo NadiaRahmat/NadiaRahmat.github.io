@@ -71,6 +71,7 @@ h2::before
 div.container{
     padding: 3em;
     perspective: 1000px;
+    backface-visibility: hidden;
 }
 div.card{
     width: 390px;
