@@ -28,7 +28,7 @@ body{
     width: 100vw;
     height: 100vh;
 }
-div.header{
+.header{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,11 +68,11 @@ h2::before
         width: 100%;
     }
 }
-div.container{
+.container{
     padding: 3em;
     perspective: 1000px;
 }
-div.card{
+.card{
     width: 390px;
     height: 380px;
     position: fixed;
@@ -82,49 +82,49 @@ div.card{
     transform-style: preserve-3d;
     margin-left: auto;
 }
-div.card:hover{
+.card:hover{
     transform: rotateY(180deg)
 }
-div.block{
+.block{
     position: absolute;
     top: 0px;
     right: 110px;
     perspective: 800px;
 }
-div.outside,div.inside{
+.outside,.inside{
     width: 100%;
     height: 100%;
     border-radius: 20px;
     text-align: center;
     padding: 1.5rem;
 }
-div.outside{
+.outside{
     background-color: transparent;
     box-shadow: 5px 5px 30px rgb(255, 255, 255);
     position: absolute;
     backface-visibility: hidden;
 }
-div.outside h1{
+.outside h1{
     font-size: 2rem;
     font-weight: bold;
     font-family: 'rogue script', serif;
     color: rgb(0, 0, 0);
     margin-bottom: 30px;
 }
-div.inside{
+.inside{
     background-color: transparent;
     box-shadow: 10px 10px 30px rgb(255, 255, 255);
     transform: rotateY(180deg);
     backface-visibility: hidden;
 }
-div.inside h3{
+.inside h3{
     font-size: 1rem;
     font-weight: bold;
     font-style: italic;
     font-family: 'Bodoni Moda', serif;
     margin-top: 10px;
 }
-div.frames{
+.frames{
     width: 350px;
     height: 145px;
     box-shadow: 10px 10px 30px rgb(255, 255, 255);
@@ -137,30 +137,30 @@ div.frames{
 
     transform: rotate3d(200deg);
 }
-div.frames img{
+.frames img{
     width: 80px;
     height: 80px;
     margin: 20px;
     border-radius: 50%;
     box-shadow: 10px 10px 50px rgb(215, 112, 255);
 }
-div.frames p{
+.frames p{
     font-size: 18px;
     font-weight: bold;
     font-style: italic;
     font-style: oblique;
 }
-div.frames:nth-child(1)
+.frames:nth-child(1)
 {
     top: -110px;
     z-index: -1;
     background-color: transparent;
 }
-div.frames:nth-child(2)
+.frames:nth-child(2)
 {
     background-color: transparent;
 }
-div.frames:nth-child(3)
+.frames:nth-child(3)
 {
     background-color: transparent;
 }
