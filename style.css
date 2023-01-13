@@ -164,11 +164,11 @@ h2::before
 {
     background-color: transparent;
 }
-.change{
+div.change{
     display: none;
     margin-left: 20px;
 }
-.header h2:hover + .change{
+div.header h2:hover + div.change{
     display: block;
     width: 120px;
     width: 120px;
