@@ -118,6 +118,7 @@ div.inside{
     transform: rotateY(180deg);
     backface-visibility: hidden;
     transform: rotateX(0);
+    z-index: 3;
 }
 div.inside h3{
     font-size: 1rem;
